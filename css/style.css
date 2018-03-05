@@ -1,0 +1,44 @@
+* { 
+	padding: 0; 
+	margin: 0; 
+	box-sizing: border-box; /*sprawdzić co to*/
+}
+
+header { 
+	background: url('../img/img4.png') center;
+	width: 100%;
+	height: 100%;
+	display: block; 
+	position:static; 
+	overflow: auto; 
+	background-size: cover; /* użycie naszej grafiki zawsze w całym oknie przeglądarki, przeglądarka nie rozciąga zdjęcia */
+
+} 
+
+header h1, h3 { 
+	color: #F9F9F9;
+	margin-left: 10px;
+}
+
+h1 { 
+	font-size: 40px;
+	margin-top: 330px;
+} 
+
+h3 { 
+	font-size: 19px; 
+	margin-top: 10px;
+	margin-bottom: 320px;
+}
+
+hello { 
+	background-color: white;
+} 
+
+.description-t { 
+	background-color: #d0dbd4;
+}
+
+footer { 
+	background-color: #0d3140;
+} 	
